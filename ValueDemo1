@@ -1,0 +1,11 @@
+public class ValueDemo1{//类名和文件名保持一致
+  public static void main(String[] args){
+//掌握常见的数据在代码中如何书写？
+    System.out.println(666);//整数
+    System.out.println(1.93);//小数
+    System.out.println("i am fine");//字符串
+    System.out.println('好');//字符
+    System.out.println(true);//布尔类型
+    System.out.println("null");
+  }
+}
