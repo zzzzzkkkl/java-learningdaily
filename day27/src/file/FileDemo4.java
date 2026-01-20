@@ -1,0 +1,20 @@
+package file;
+
+import java.io.File;
+
+public class FileDemo4 {
+    public static void main(String[] args) {
+        //判断功能
+
+        File f=new File("d:\\aaa\\bbb.java");
+        File f2=new File("d:\\aaa");
+
+        //判断文件是否存在
+        System.out.println("d:\\aaa\\bbb.java是否存在:"+f.exists());
+        System.out.println("d:\\aaa是否存在:"+f2.exists());
+
+        //判断是文件还是目录
+        System.out.println("d:\\aaa文件？："+f2.isFile());
+        System.out.println("d:\\aaa目录：" +f2.isDirectory());
+    }
+}
